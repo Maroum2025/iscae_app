@@ -1,0 +1,23 @@
+# Environnement virtuel
+env/
+venv/
+
+# Fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Base de données
+db.sqlite3
+
+# Fichiers Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Migrations (optionnel, mais si tu veux les garder, enlève la ligne)
+*/migrations/*.pyc
+
+# Autres
+*.DS_Store
