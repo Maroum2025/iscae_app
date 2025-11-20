@@ -78,7 +78,9 @@ WSGI_APPLICATION = 'iscae_project.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=os.environ.get('DATABASE_URL')
+        default='sqlite:///db.sqlite3',  # fallback local pour dev
+        conn_max_age=600,
+        ssl_require=True
     )
 }
 
