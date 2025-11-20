@@ -1,1 +1,1 @@
-web : gunicorn iscae_app.wsgi
+web: gunicorn iscae_project.wsgi
