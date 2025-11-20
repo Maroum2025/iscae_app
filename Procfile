@@ -1,0 +1,1 @@
+web : gunicorn iscae_app.wsgi
